@@ -1,0 +1,59 @@
+ANI report for assembly: GCA_000007565.2
+Submitted organism: Pseudomonas putida KT2440 (taxid = 160488, rank = no rank, lineage = Bacteria; Pseudomonadota; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas)
+Best match: Pseudomonas putida (taxid = 303, rank = species, lineage = Bacteria; Pseudomonadota; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas)
+Submitted organism has type: Yes
+Status: INCONCLUSIVE
+Confidence: LOW
+
+Table legend:
+ANI : ANI value between this assembly and the type listed in this row
+(Coverages) : query-coverage and subject-coverage of this assembly (query) and the type (subject)
+NewSeq : the count of bases best assigned to this type assembly
+CntmSeq : the portion of NewSeq allocated for purposes of evaluating contamination
+Flg : Type flags; currently: C = contaminant; E = effectively published; T = trusted species
+Assembly : Release-id of the type-assembly (this value matches the accession and assembly-name on the right column)
+Organism : Organism of this type-assembly
+(assembly_accession, assembly_name) : of this type-assembly
+
+ANI     (Coverages)   NewSeq   CntmSeq  Assembly  Flg Organism  (assembly_accession, assembly_name)
+------- ------------- -------- -------- --------- --- --------------------------------------------------------------------
+ 90.674 ( 74.4  74.5)  4433650  4433650  35016748     Pseudomonas putida (GCA_024508115.1, ASM2450811v1)
+ 90.672 ( 74.0  74.5)     9915     9915   6994248     Pseudomonas putida (GCA_900455645.1, 43222_D01)
+ 90.634 ( 73.7  74.9)     5662     5662  20216798     Pseudomonas putida (GCA_013387005.1, ASM1338700v1)
+ 90.675 ( 74.3  74.6)     2438     2438    707648     Pseudomonas putida NBRC 14164 (GCA_000412675.1, ASM41267v1)
+ 90.328 ( 73.8  72.3)   194116   194116  47756438     Pseudomonas fortuita (GCA_026898135.2, ASM2689813v2)
+ 90.198 ( 71.7  70.4)   213954   213954   1175038     Pseudomonas monteilii NBRC 103158 = DSM 14164 (GCA_000730605.1, ASM73060v1)
+ 90.199 ( 71.1  73.7)   152704   152704  15955118     Pseudomonas asiatica (GCA_009932335.1, ASM993233v1)
+ 90.195 ( 69.6  69.0)    46058    46058   8786418     Pseudomonas inefficax (GCA_900277125.1, ASM90027712v1)
+ 90.158 ( 66.8  77.0)    19886    19886  27724438     Pseudomonas kurunegalensis (GCA_014269245.2, ASM1426924v2)
+ 90.177 ( 69.6  77.1)    15523    15523  11180808     Pseudomonas shirazica (GCA_900291065.1, Pseudomonas sp. VM14)
+ 90.200 ( 71.6  70.1)     2682     2682    993578     Pseudomonas monteilii NBRC 103158 = DSM 14164 (GCA_000621245.1, ASM62124v1)
+ 89.914 ( 69.8  69.3)    33745    33745  41466688     Candidatus Pseudomonas phytovorans (GCA_029202525.1, ASM2920252v1)
+ 89.131 ( 64.6  76.1)    15347    15347  27724398     Pseudomonas oryzicola (GCA_014269185.2, ASM1426918v2)
+ 89.232 ( 65.0  74.6)     7909     7909  27722048     Pseudomonas anuradhapurensis (GCA_014269225.2, ASM1426922v2)
+ 88.632 ( 62.3  67.2)    25084    25084  15955158     Pseudomonas juntendi (GCA_009932375.1, ASM993237v1)
+ 87.542 ( 64.4  64.8)    30844    30844  27724558     Pseudomonas kermanshahensis (GCA_014269205.2, ASM1426920v2)
+ 87.537 ( 61.6  64.0)    19122    19122  31117668  E  Pseudomonas urethralis (GCA_021602465.1, ASM2160246v1)
+ 87.553 ( 64.6  67.2)    15626    15626   1176168  E  Pseudomonas capeferrum (GCA_000731675.1, ASM73167v1)
+ 87.626 ( 61.1  64.1)     3576     3576  31117788  E  Pseudomonas faucium (GCA_021602585.1, ASM2160258v1)
+ 87.690 ( 60.2  62.8)      861      861  20163638  E  Pseudomonas faucium (GCA_013373935.1, ASM1337393v1)
+ 87.561 ( 61.2  62.9)      595      595  20163618  E  Pseudomonas urethralis (GCA_013373915.1, ASM1337391v1)
+ 87.573 ( 63.4  66.7)      473      473  32240808  E  Pseudomonas capeferrum (GCA_022548835.1, ASM2254883v1)
+ 87.335 ( 57.0  65.8)     7761     7761  43072528     Pseudomonas plecoglossicida (GCA_030160515.1, ASM3016051v1)
+ 87.420 ( 61.0  66.9)     6199     6199  27724498     Pseudomonas vlassakiae (GCA_014269035.2, ASM1426903v2)
+ 87.324 ( 57.0  65.8)      627      627   1066738     Pseudomonas plecoglossicida NBRC 103162 = DSM 15088 (GCA_000688275.1, ASM68827v1)
+ 87.338 ( 57.0  65.9)        0        0   1175098     Pseudomonas plecoglossicida NBRC 103162 = DSM 15088 (GCA_000730665.1, ASM73066v1)
+ 87.057 ( 57.6  56.3)    24074    24074  31117248  E  Pseudomonas ceruminis (GCA_021602025.1, ASM2160202v1)
+ 87.077 ( 57.3  55.8)     2321     2321  20163598  E  Pseudomonas ceruminis (GCA_013373895.1, ASM1337389v1)
+ 86.719 ( 54.3  52.9)    37210    37210  28653738     Pseudomonas mosselii (GCA_019823065.1, ASM1982306v1)
+ 86.768 ( 52.2  53.9)     5478     5478  27718718     Pseudomonas xanthosomatis (GCA_019139835.1, ASM1913983v1)
+ 86.789 ( 52.5  52.8)     1290     1290  27718778     Pseudomonas fakonensis (GCA_019139895.1, ASM1913989v1)
+ 86.780 ( 52.8  55.1)      467      467  27724948     Pseudomonas peradeniyensis (GCA_014268935.2, ASM1426893v2)
+ 86.681 ( 55.4  56.6)    16192    16192   6655258     Pseudomonas sichuanensis (GCA_003231305.1, ASM323130v1)
+ 86.569 ( 55.7  57.0)    10578    10578   8077518     Pseudomonas oryziphila (GCA_003940825.1, ASM394082v1)
+ 86.682 ( 52.4  58.6)       79       79  27718498     Pseudomonas muyukensis (GCA_019139535.1, ASM1913953v1)
+ 86.660 ( 54.0  53.4)        0        0    993558     Pseudomonas mosselii DSM 17497 (GCA_000621225.1, ASM62122v1)
+ 86.441 ( 54.7  62.5)    27461    27461    776798     Pseudomonas taiwanensis DSM 21245 (GCA_000425785.1, ASM42578v1)
+ 86.472 ( 56.9  59.7)    14467    14467  31116588  E  Pseudomonas parasichuanensis (GCA_021601385.1, ASM2160138v1)
+ 86.461 ( 51.3  56.6)     2478     2478  27722408     Pseudomonas xantholysinigenes (GCA_014268885.2, ASM1426888v2)
+ 86.415 ( 52.5  55.1)      573      573     26908     Pseudomonas entomophila L48 (GCA_000026105.1, ASM2610v1)

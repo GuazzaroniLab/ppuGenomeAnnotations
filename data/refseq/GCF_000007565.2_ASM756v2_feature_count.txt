@@ -1,0 +1,17 @@
+# Feature	Class	Full Assembly	Assembly-unit accession	Assembly-unit name	Unique Ids	Placements
+CDS	with_protein	GCF_000007565.2	GCF_000007575.2	Primary Assembly	5448	5486
+CDS	without_protein	GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	107
+gene	RNase_P_RNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	1	1
+gene	SRP_RNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	1	1
+gene	ncRNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	1	1
+gene	protein_coding	GCF_000007565.2	GCF_000007575.2	Primary Assembly	5486	5486
+gene	pseudogene	GCF_000007565.2	GCF_000007575.2	Primary Assembly	107	107
+gene	rRNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	22	22
+gene	tRNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	74	74
+gene	tmRNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	1	1
+ncRNA	RNase_P_RNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	1
+ncRNA	SRP_RNA	GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	1
+ncRNA	other	GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	1
+rRNA		GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	22
+tRNA		GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	74
+tmRNA		GCF_000007565.2	GCF_000007575.2	Primary Assembly	na	1
