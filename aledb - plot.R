@@ -24,4 +24,4 @@ aledb_mutations <- ggplot(aledb, aes(x =`Reference Seq`, y = n, fill = `Referenc
     axis.line = element_line(color = "black", linewidth = 0.5)
   )
 
-ggsave(aledb_mutations, filename = "Fig 4. - ALEdb", device = svg, path = "../output/panels/", width = 10, height = 5, units = "in", dpi = 300)
+ggsave(aledb_mutations, filename = "Fig - ALEdb", device = svg, path = "../output/panels/", width = 10, height = 5, units = "in", dpi = 300)
