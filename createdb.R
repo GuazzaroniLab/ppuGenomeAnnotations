@@ -51,14 +51,33 @@ rsxgb <- dplyr::inner_join(rs,gb, by = c("old_locus_tag" = "locus_tag"), suffix 
 # outputs a table with differences in the size of the loci with shifted positions
 affected_loci <- rsxgb |> dplyr::filter(difference_type != "none") |>
   dplyr::select(- dplyr::starts_with("name_product"))
-readr::write_tsv(affected_loci, "../output/tables/affected_loci.tsv")
 
-# generates lists/variables that will be useful in other functions
+# saves a pretty table for supplemental material
+affected_loci |>
+  dplyr::select(-c(same_start, same_end, delta_start_bp, delta_end_bp, relative_size)) |>
+  dplyr::rename(
+    "Refseq-to-GenBank length variation (bp)" = difference_bp,
+    "RefSeq locus tag" = locus_tag,
+    "GenBank locus tag" = old_locus_tag,
+    "RefSeq start position" = start.refseq,
+    "GenBank start position" = start.genbank,
+    "RefSeq end position" = end.refseq,
+    "GenBank end position" = end.genbank,
+    "RefSeq feature length" = feature_interval_length.refseq,
+    "GenBank feature length" = feature_interval_length.genbank,
+    "Affected extremity" = difference_type
+    ) |>
+  readr::write_tsv("../output/tables/affected_loci.tsv")
+
+
+  # Other lists/variables that will be useful in other functions
+
 affected_loci.old_codes <- affected_loci |> dplyr::pull(old_locus_tag) |> unique()
 affected_loci.rs_codes <- affected_loci |> dplyr::pull(locus_tag) |> unique()
 save(affected_loci.old_codes, file = "affected_oldformat")
 save(affected_loci.rs_codes, file = "affected_newformat")
 
+# for the venn diagram
 gb_genes <- dplyr::pull(gb, locus_tag) |>
   unique() |>
   sort()
