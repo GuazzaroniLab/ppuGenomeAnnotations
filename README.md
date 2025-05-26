@@ -14,7 +14,7 @@ This analysis is part of an upcoming publication comparing the usage of these di
 - `aledb.csv`, `aledb - data.R` and `aledb - plot.R`: contain the dataset manually downloaded from [ALEdb](https://aledb.org/) and scripts for processing and visualizing it.
 - `affected_newformat` and `affected_oldformat` : R vectors, stored as binary files, with the RefSeq and GenBank genomic loci codes of the 897 shifted genes described in the main text, respectively.
 - `utils.R` and `kegg_pathway_genes.R`: smaller scripts containing functions for running the Fisher exact test and retrieving data from KEGG, respectively.
-- `ppuCog.tsv` : table containing all available [COG](https://www.ncbi.nlm.nih.gov/research/cog/) annotations for _P. putida_ KT2440.
+- `ppuCog.tsv` : table containing all available [COG](https://www.ncbi.nlm.nih.gov/research/cog/) annotations for _P. putida_ KT2440. Please check the sister repository [ppuCOG](https://github.com/guilheviana/ppuCOG) for more details.
 
 ## Additional information
 If you have any questions or feedback, please contact the first author Guilherme (Gui) Viana de Siqueira at gmvsiq@gmail.com.
